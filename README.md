@@ -16,7 +16,7 @@ The data includes:
 3. List of Gag sites related to known biochemical domains
 4. List of Gag sites related to HIV controllers and progressors
 
-The Analysis folder also includes a code file "standalone_function.m" that can be used to infer sectors as described in the paper by provding any MSA and few parameters as inputs to the function.  
+The Analysis folder also includes a code file "general_code.m" that can be used to infer sectors as described in the paper by provding any MSA and few parameters as inputs to the function.  
 
 ## Figures
 
