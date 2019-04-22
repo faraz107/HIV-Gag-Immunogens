@@ -80,5 +80,4 @@ calculate_overlap(sec_eig_roca,sec_eig_pca,n_secs_roca,n_secs_pca);
 
 %% Statistics of RoCA sectors
 
-[mc,mean_abs_corr,per_neg_corr,per_pos_corr] = ...
-    stats_sectors(C_hat,sec_eig_roca,n_secs_roca,freq_bin,pos_thresh,neg_thresh);
+[mc,mean_abs_corr,per_neg_corr,per_pos_corr] = stats_sectors(C_hat,sec_eig_roca,n_secs_roca,freq_bin,pos_thresh,neg_thresh);
