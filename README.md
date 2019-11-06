@@ -2,7 +2,7 @@
 This repository includes source code scripts for all the analysis and figures reported in the following:
 
 ### Title of paper 
-Sub-dominant principal components inform new vaccine targets for HIV Gag _(submitted)_ 
+[Sub-dominant principal components inform new vaccine targets for HIV Gag](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz524/5524601) 
 ### Authors 
 Syed Faraz Ahmed, Ahmed A. Quadeer, David Morales-Jimenez and Matthew R. McKay.
 
@@ -42,7 +42,9 @@ The R scripts used for generating the accompanying figures are contained in the 
     
 
 * To re-run the analysis presented in the paper
-  * Open MATLAB and run the file `main.m`
+  * Open MATLAB and set the `Analysis` folder as the working directory with sub-folders (add to path)
+  * Unzip the `datafiles.zip` and `functions.zip` in the working directory
+  * Run the file `main.m`
 
 * To re-generate the figures presented in the paper
   * Open RStudio and run the file `figures.rmd`
