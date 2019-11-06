@@ -11,7 +11,7 @@
 clear all;close all;clc
 
 % Adding paths of required functions and datafiles
-%run startup.m
+
 addpath functions
 addpath datafiles
 
@@ -69,6 +69,19 @@ length_sec_roca = length_sec_new;
 alpha = alpha_new;
 
 n_secs_roca = length(sec_eig_roca);
+
+fprintf('\n-----------------------------------------------------------------------------------\n')
+fprintf('Number of sectors formed: %d\n',n_secs_roca)
+fprintf('-----------------------------------------------------------------------------------\n')
+
+fprintf('\n-----------------------------------------------------------------------------------\n')
+fprintf('Number of sites within Sector %d:  %d sites\n',[1:n_secs_roca; length_sec_roca])
+fprintf('-----------------------------------------------------------------------------------\n')
+
+
+fprintf('\n-----------------------------------------------------------------------------------\n')
+fprintf('List of sites including conserved neighbors are in "sec_eig_roca_incl_cs" \n')
+fprintf('-----------------------------------------------------------------------------------\n')
 
 %% Computing correlation matrices
 
