@@ -45,9 +45,6 @@ The R scripts used for generating the accompanying figures are contained in the 
   * Open MATLAB and set the `Analysis` folder as the working directory with sub-folders (add to path)
   * Unzip the `datafiles.zip` and `functions.zip` in the working directory
   * Run the file `main.m`
-
-* To re-generate the figures presented in the paper
-  * Open RStudio and run the file `figures.rmd`
   
 ## Troubleshooing
 
